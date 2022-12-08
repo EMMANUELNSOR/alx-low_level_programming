@@ -5,6 +5,10 @@
  */
 int main(void)
 {
-	write(2, "and that piece of art is useful\" -Dora korpar, 2015-10-19\n", 59);
-	return (1);
+	printf("size of char: %lu byte(s)\n", sizeof(char));
+	printf("size of int:%lu byte(s)\n", sizeof(int));
+	printf("size of a long int:%lu byte(s)\n", sizeof(long int));
+	printf("size of a long long  int:%lu byte(s)\n", sizeof(long long int));
+	printf("size of float:%lu byte(s)\n", sizeof(float));
+	return (0);
 }
