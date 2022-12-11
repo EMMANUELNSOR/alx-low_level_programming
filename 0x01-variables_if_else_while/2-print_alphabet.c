@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib>
 /**
  * main - prints alpha in lower case
  * Return: Always 0
