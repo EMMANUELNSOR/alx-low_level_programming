@@ -2,7 +2,7 @@
 
 /**
  * _strcpy - copiar el contenido de uno a otra variable
- * @dest: This is destingy
+ * @dest: This is destiny
  * @src: This is copia
  *
  * Return: This return copy
@@ -18,5 +18,5 @@ char *_strcpy(char *dest, char *src)
 		 src++;
 	}
 	*dest = '\0';
-	retrun (start);
+	return (start);
 }
