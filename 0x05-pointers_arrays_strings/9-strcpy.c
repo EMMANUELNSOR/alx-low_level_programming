@@ -5,7 +5,7 @@
  * @dest: This is destiny
  * @src: This is copia
  *
- * Return: This return copy
+ * Return: This is copy
  */
 char *_strcpy(char *dest, char *src)
 {
